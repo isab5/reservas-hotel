@@ -15,7 +15,7 @@ valor_diaria DECIMAL(8,2) NOT NULL
 
 CREATE TABLE reservas (
 id_reserva SERIAL PRIMARY KEY,
-id_hospedes INT NOT NULL,
+id_hospede INT NOT NULL,
 id_quarto INT NOT NULL, 
 data_entrada DATE NOT NULL,
 data_saida DATE NOT NULL,
